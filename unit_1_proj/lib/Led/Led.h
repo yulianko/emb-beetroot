@@ -6,7 +6,7 @@
 class Led
 {
 public:
-    Led(int pin);
+    Led(uint8_t pin);
 
     void setOn();
     void setOff();
@@ -21,7 +21,7 @@ private:
         BLINK
     };
 
-    int _pin;
+    uint8_t _pin;
 
     Mode _mode;
 

@@ -1,6 +1,6 @@
 #include "Led.h"
 
-Led::Led(int pin) : _pin(pin), _mode(OFF)
+Led::Led(uint8_t pin) : _pin(pin), _mode(OFF)
 {
     pinMode(_pin, OUTPUT);
     setOff();
