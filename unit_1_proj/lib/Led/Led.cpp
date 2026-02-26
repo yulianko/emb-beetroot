@@ -8,12 +8,22 @@ Led::Led(int pin) : _pin(pin), _mode(OFF)
 
 void Led::setOn()
 {
+    if (_mode == ON)
+    {
+        return;
+    }
+
     _mode = ON;
     digitalWrite(_pin, HIGH);
 }
 
 void Led::setOff()
 {
+    if (_mode == OFF)
+    {
+        return;
+    }
+
     _mode = OFF;
     digitalWrite(_pin, LOW);
 }
