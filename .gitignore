@@ -30,7 +30,6 @@ __pycache__/
 # Dependencies
 *.a
 *.so
-lib/
 .lib/
 
 # Object files
