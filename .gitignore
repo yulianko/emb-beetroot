@@ -53,3 +53,8 @@ Thumbs.db
 *.log
 
 questions.md
+
+# Default pio README files
+**/include/README*
+**/lib/README*
+**/test/README*
