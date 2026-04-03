@@ -1,0 +1,9 @@
+{
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "[cpp]": { "editor.defaultFormatter": "ms-vscode.cpptools" },
+    "[c]": { "editor.defaultFormatter": "ms-vscode.cpptools" },
+
+    "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+    "C_Cpp.codeAnalysis.clangTidy.useConfigFile": true,
+    "C_Cpp.codeAnalysis.clangTidy.codeAction.showCheckCode": true
+}
