@@ -26,11 +26,11 @@ CheckOptions:
     value: UPPER_CASE
   - key:   readability-identifier-naming.NamespaceConstantCase
     value: UPPER_CASE
+  - key:   readability-identifier-naming.ParameterConstantCase
+    value: camelBack
   - key:   readability-identifier-naming.LocalConstantCase
-    value: camelCase
-  - key:   readability-identifier-naming.LocalConstantPrefix
-    value: ''
+    value: camelBack
   - key:   readability-identifier-naming.LocalVariableCase
-    value: camelCase
+    value: camelBack
   - key:   readability-identifier-naming.StaticConstantCase
-    value: camelCase
+    value: CamelCase
